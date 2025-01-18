@@ -1,0 +1,274 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #FFEFBA, #FFFFFF);
+    color: white;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Homepage */
+#homepage {
+    position: relative;
+    background: url('background1.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+#homepage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    z-index: 0;
+}
+
+#homepage h1,
+#homepage p,
+#homepage button,
+#homepage img {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin: 20px 0;
+    object-fit: cover;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    animation: pulse 2s infinite;
+}
+
+.profile-text {
+    font-size: 1.5em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 20px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #42A5F5, #0072FF);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 0 10px rgba(66, 165, 245, 0.7);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+    }
+}
+
+
+
+/* Game Page */
+#game-page {
+    background: url('background2.png') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire background */
+    min-height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    padding: 40px 20px;
+    border-radius: 15px;
+    color: white; /* Ensure text visibility */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Improve readability */
+    position: relative;
+}
+
+/* Optional overlay for better text contrast */
+#game-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    z-index: 0;
+}
+
+/* Ensure content is above the overlay */
+#game-page * {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Game Board */
+#game-board {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px; /* Increased spacing between cards */
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Styles */
+.card {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #FF6E40, #FFAB40);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 102, 0, 0.4);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+    animation: revealCard 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 102, 0, 0.6);
+    background: linear-gradient(135deg, #FF8C68, #FFD194);
+}
+
+@keyframes revealCard {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Card Image */
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+}
+
+/* Hover Effects */
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 102, 0, 0.6);
+    background: linear-gradient(135deg, #FF8C68, #FFD194);
+}
+
+/* Input Field */
+#guess-input {
+    padding: 15px;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#guess-input:focus {
+    border-color: #FFD700;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+#guess-input::placeholder {
+    font-style: italic;
+    color: #555; /* Placeholder text color */
+}
+
+
+/* Button Styling */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #42A5F5, #1E88E5);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    margin: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4), 0 0 15px rgba(33, 150, 243, 0.5);
+    background: linear-gradient(90deg, #1E88E5, #42A5F5);
+}
+
+
+/* Title Styling */
+#game-page h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #FFD700;
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
+
+
+/* Scoreboard */
+#scoreboard {
+    font-size: 20px;
+    color: #444;
+    margin: 20px 0;
+}
+
+#hearts {
+    color: red;
+    font-size: 24px;
+}
