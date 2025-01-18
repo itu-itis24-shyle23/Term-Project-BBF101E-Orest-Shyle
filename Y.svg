@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="Y.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69753788"
+     inkscape:cx="396.39424"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10"
+       id="linearGradient11"
+       x1="342.90396"
+       y1="465.39432"
+       x2="406.74252"
+       y2="465.39432"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient10"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop10" />
+      <stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop11" />
+    </linearGradient>
+    <rect
+       x="270.95303"
+       y="410.01358"
+       width="205.00679"
+       height="239.41351"
+       id="rect6" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="mix-blend-mode:normal;fill:#1717ff;fill-opacity:0.225352;stroke-width:0.252308"
+       id="rect1"
+       width="89.137932"
+       height="114.17242"
+       x="-149.56897"
+       y="91.413795"
+       inkscape:transform-center-y="-2.0695905"
+       transform="scale(-1,1)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.92411325,0,0,0.64428627,-240.28415,-152.57541)"
+       id="text6"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;line-height:1.7;font-family:'Snap ITC';-inkscape-font-specification:'Snap ITC';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect6);display:inline;fill:url(#linearGradient11)"
+       x="2.0302832e-06"
+       y="0"><tspan
+         x="339.9326"
+         y="492.87621"
+         id="tspan2">Y</tspan></text>
+  </g>
+</svg>

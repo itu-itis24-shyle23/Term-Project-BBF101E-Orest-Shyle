@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <pattern
+       xlink:href="#pattern26"
+       preserveAspectRatio="xMidYMid"
+       id="pattern27"
+       patternTransform="matrix(0.5,0,0,0.5,1,1)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="100"
+       height="87"
+       preserveAspectRatio="xMidYMid"
+       patternTransform="translate(1,1) scale(0.5,0.5)"
+       style="fill:#000000"
+       id="pattern26">
+      <path
+         id="path25"
+         style="stroke:none"
+         d="M 23.246093,0 0,13.382812 V 44.689453 L 0.0839844,44.640625 24.033203,58.505859 24.001953,86.332031 22.841796,87 h 4.478516 L 26.068359,86.275391 26.099609,58.449219 50.083984,44.640625 74.033203,58.505859 74.001953,86.332031 72.841796,87 h 4.478516 L 76.068359,86.275391 76.099609,58.449219 100,44.689453 V 13.365234 L 76.919921,0 H 73.246093 L 50.015625,13.373047 26.919921,0 Z M 25.083984,1.25 49.033203,15.115234 49.001953,42.941406 25.017578,56.75 1.0019531,42.845703 l 0.033203,-27.75 z m 50,0 24.017576,13.904297 -0.0352,27.75 L 75.017578,56.75 51.068359,42.884766 51.099609,15.058594 Z" />
+    </pattern>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath24">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.999999;stroke-linecap:butt;stroke-linejoin:bevel;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect24"
+         width="44.999748"
+         height="77.937294"
+         x="251.53429"
+         y="222.73541" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9">
+      <rect
+         style="fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect9"
+         width="45.034248"
+         height="38.955639"
+         x="262.48285"
+         y="121.00073" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8">
+      <rect
+         style="fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect8"
+         width="45.034248"
+         height="38.955639"
+         x="262.48285"
+         y="121.00073" />
+    </clipPath>
+    <pattern
+       xlink:href="#Hexagons"
+       preserveAspectRatio="xMidYMid"
+       id="pattern3"
+       patternTransform="matrix(0.7,0,0,0.7,1,1)"
+       x="0"
+       y="0" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="100"
+       height="87"
+       preserveAspectRatio="xMidYMid"
+       patternTransform="translate(1,1) scale(0.5,0.5)"
+       style="fill:#000000"
+       id="Hexagons">
+      <path
+         id="path27"
+         style="stroke:none"
+         d="M 23.246093,0 0,13.382812 V 44.689453 L 0.0839844,44.640625 24.033203,58.505859 24.001953,86.332031 22.841796,87 h 4.478516 L 26.068359,86.275391 26.099609,58.449219 50.083984,44.640625 74.033203,58.505859 74.001953,86.332031 72.841796,87 h 4.478516 L 76.068359,86.275391 76.099609,58.449219 100,44.689453 V 13.365234 L 76.919921,0 H 73.246093 L 50.015625,13.373047 26.919921,0 Z M 25.083984,1.25 49.033203,15.115234 49.001953,42.941406 25.017578,56.75 1.0019531,42.845703 l 0.033203,-27.75 z m 50,0 24.017576,13.904297 -0.0352,27.75 L 75.017578,56.75 51.068359,42.884766 51.099609,15.058594 Z" />
+    </pattern>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15">
+      <rect
+         style="fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect15-7"
+         width="45.034248"
+         height="38.955639"
+         x="262.48285"
+         y="121.00073" />
+    </clipPath>
+    <rect
+       x="270.95303"
+       y="410.01358"
+       width="205.00679"
+       height="239.41351"
+       id="rect6" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="mix-blend-mode:normal;fill:url(#pattern3);fill-opacity:1;stroke-width:0.252308"
+       id="rect1"
+       width="89.137932"
+       height="114.17242"
+       x="-149.56897"
+       y="91.413788"
+       transform="scale(-1,1)" />
+    <circle
+       id="path3"
+       style="fill:#7c0000;stroke:#000000;stroke-width:0.264583;fill-opacity:1"
+       cx="73.586205"
+       cy="116.06896"
+       r="0.050523765" />
+    <rect
+       style="fill:url(#pattern27);fill-opacity:1;stroke-width:0.264583"
+       id="rect7"
+       width="91.793106"
+       height="116.44828"
+       x="58.413792"
+       y="91.413788" />
+    <rect
+       style="fill:#4b0000;fill-opacity:0.83501005;stroke-width:0.264583"
+       id="rect27"
+       width="92.931038"
+       height="118.72414"
+       x="58.034481"
+       y="90.655174" />
+  </g>
+</svg>
