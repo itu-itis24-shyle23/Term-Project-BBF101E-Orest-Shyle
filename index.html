@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Prediction Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="homepage">
+        <h1>About Me</h1>
+        <img src="me.jpg" alt="Profile Photo" class="profile-photo">
+        <p class="profile-text">
+            Hello there! My name is <b>Orest Shyle</b> and I am an international student coming from the small but proud country of <b>Albania.</b> Growing up I always dreamed about becoming a successful <b>Computer engineer</b>, because I think it has a bright future. That is why I have worked hard for many years to earn a scholarship and come to the college of my dreams, <b>Istanbul Technical University</b>. I am exited to see what the future stores for me and I am also ready to overcome every obstacle that may occur between me and success. That's all about me, now you can enjoy the game I created by clicking the button below.
+        </p>
+        <button class="start-game" onclick="navigateToGame()">Play Word Prediction Game</button>
+    </section>
+    <section id="game-page" style="display: none;">
+        <h1>Word Prediction Game</h1>
+        <div id="game-board"></div>
+        <div id="scoreboard">
+            <p>Score: <span id="score">0</span></p>
+            <p>Lives: <span id="lives">3</span> <span id="hearts">❤❤❤</span></p>
+        </div>
+        <input type="text" id="guess-input" maxlength="1" placeholder="Enter a letter">
+        <button onclick="submitGuess()">Submit</button>
+        <button onclick="resetGame()">Reset the Game</button>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        function navigateToGame() {
+            document.getElementById('homepage').style.display = 'none';
+            document.getElementById('game-page').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
